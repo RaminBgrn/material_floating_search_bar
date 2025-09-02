@@ -603,6 +603,7 @@ class FloatingSearchAppBarState extends ImplicitlyAnimatedWidgetState<
         child: IntrinsicWidth(
           child: TextField(
             controller: _input,
+            textDirection: TextDirection.rtl,
             showCursor: widget.showCursor,
             scrollPadding: EdgeInsets.zero,
             scrollPhysics: const NeverScrollableScrollPhysics(),
